@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doni Iskandar | Web Developer & Designer</title>
+
+    <link rel="icon" type="image/png" href="img/profile tab.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div class="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Portofolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero" class="d-flex align-items-center">
+      <div class="space-bg">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div class="planet" id="planet1"></div>
+        <div class="planet" id="planet2"></div>
+        <div class="planet" id="moon"></div>
+
+        <div class="planet small-planet" style="top: 60%; left: 5%"></div>
+        <div class="planet medium-planet" style="bottom: 10%; left: 35%"></div>
+        <div class="asteroid" style="top: 25%; right: 10%"></div>
+        <div class="asteroid" style="bottom: 40%; right: 20%"></div>
+        <div class="planet large-planet" style="top: 10%; right: 5%"></div>
+        <div class="asteroid" style="top: 70%; left: 45%"></div>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="img/Doni Iskandar.jpg"
+          alt="Doni Iskandar"
+          class="hero-img animate-on-scroll"
+        />
+        <h1 class="animate-on-scroll" data-delay="100">Doni Iskandar Rotama</h1>
+        <h2 class="animate-on-scroll" data-delay="200">
+          Saya seorang <span class="typed"></span>
+        </h2>
+        <div class="social-links mt-3 animate-on-scroll" data-delay="300">
+          <a href="https://www.instagram.com/doniiskndrr/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/doni-iskandar-2a726625b/"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/doniiskndr22" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <main id="main">
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>About Me</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2 animate-on-scroll">
+              <p class="text-center lead">
+                Mahasiswa Teknik Informatika yang sangat tertarik di berbagai
+                proyek kreatif seperti desain UI/UX, pengembangan website, serta
+                analisis data. Terbiasa bekerja dalam tim, berpikir analitis,
+                dan memiliki komitmen tinggi dalam menyelesaikan setiap tanggung
+                jawab yang diemban.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="resume">
+        <div class="container">
+          <div class="section-title">
+            <h2>My Showcase</h2>
+            <p>
+              Sebuah pameran interaktif dari perjalanan, pengalaman, dan
+              keahlian saya.
+            </p>
+          </div>
+
+          <div class="resume-showcase-container animate-on-scroll">
+            <div class="row">
+              <div class="col-lg-3">
+                <ul class="resume-tabs-nav-vertical">
+                  <li>
+                    <a class="tab-link active" data-tab="pendidikan">
+                      <i class="fas fa-graduation-cap"></i>
+                      <span>Pendidikan</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="tab-link" data-tab="pengalaman">
+                      <i class="fas fa-briefcase"></i>
+                      <span>Pengalaman</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="tab-link" data-tab="keahlian">
+                      <i class="fas fa-code"></i>
+                      <span>Keahlian</span>
+                    </a>
+                  </li>
+                </ul>
+                <div class="text-center mt-4">
+
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-9">
+                <div class="resume-tabs-content">
+                  <div id="pendidikan" class="tab-content active">
+                    <div class="content-item">
+                      <h3>Pendidikan Formal</h3>
+                    </div>
+                    <div class="content-item">
+                      <h4>S1 Teknik Informatika</h4>
+                      <p class="text-primary fw-bold">
+                        Universitas Muhammadiyah Riau | 2023 - Sekarang
+                      </p>
+                      <p>
+                        Fokus pada pengembangan fundamental rekayasa perangkat
+                        lunak, algoritma, dan struktur data untuk membangun
+                        solusi teknologi yang efisien.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div id="pengalaman" class="tab-content">
+                    <div class="content-item">
+                      <h3>Jejak Profesional</h3>
+                    </div>
+                    <div class="timeline">
+                      <div class="timeline-item content-item">
+                        <div class="timeline-dot"></div>
+                        <h4>Web Developer & Graphic Designer</h4>
+                        <p class="text-primary fw-bold">
+                          IYES Indonesia | 2024 - Sekarang
+                        </p>
+                        <p>
+                          Memimpin pengembangan teknis website organisasi dari
+                          awal dan bertanggung jawab atas semua aset desain
+                          visual.
+                        </p>
+                      </div>
+                      <div class="timeline-item content-item">
+                        <div class="timeline-dot"></div>
+                        <h4>Kepala Divisi PDD</h4>
+                        <p class="text-primary fw-bold">
+                          Gerakan Mengajar Desa Riau | 2025
+                        </p>
+                        <p>
+                          Mengelola dan mengeksekusi strategi kreatif untuk
+                          publikasi, dokumentasi, dan branding acara volunter.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="keahlian" class="tab-content">
+                    <div class="content-item">
+                      <h3>Toolkit Digital</h3>
+                    </div>
+                    <div class="skills-grid">
+                      <div class="skill-tag content-item">
+                        <i class="fab fa-html5"></i> HTML5
+                      </div>
+                      <div class="skill-tag content-item">
+                        <i class="fab fa-css3-alt"></i> CSS3
+                      </div>
+                      <div class="skill-tag content-item">
+                        <i class="fab fa-js"></i> JavaScript
+                      </div>
+                      <div class="skill-tag content-item">
+                        <i class="fab fa-bootstrap"></i> Bootstrap
+                      </div>
+                      <div class="skill-tag content-item">
+                        <i class="fab fa-figma"></i> Figma
+                      </div>
+                      <div class="skill-tag content-item">Canva</div>
+                      <div class="skill-tag content-item">Looker Studio</div>
+                      <div class="skill-tag content-item">MySQL</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="section-title">
+            <h2>My Projects</h2>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-12 d-flex justify-content-center">
+              <div id="project-filters" class="btn-group" role="group">
+                <button
+                  type="button"
+                  class="btn btn-filter active"
+                  data-filter="*"
+                >
+                  Semua
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-filter"
+                  data-filter="website"
+                >
+                  Website
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-filter"
+                  data-filter="desain"
+                >
+                  Desain
+                </button>
+
+                <button
+                  type="button"
+                  class="btn btn-filter"
+                  data-filter="video"
+                >
+                  Video
+                </button>
+
+                <button
+                  type="button"
+                  class="btn btn-filter"
+                  data-filter="jurnal"
+                >
+                  Jurnal dan Machine learning
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4 project-container"
+          >
+            <div class="col project-item" data-category="website">
+              <div class="card">
+                <img
+                  src="img/wedding1.png"
+                  class="card-img-top"
+                  alt="Web Undangan Digital"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Web Undangan Digital</h5>
+                  <p class="card-text">
+                    Proyek kuliah web undangan pernikahan.
+                  </p>
+                  <a
+                    href="https://doniiskndr22.github.io/projectwedding/"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Kunjungi Web</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="website">
+              <div class="card">
+                <img
+                  src="img/azkia2 Cropped.jpg"
+                  class="card-img-top"
+                  alt="Website Azkia Laundry"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Website Azkia Laundry</h5>
+                  <p class="card-text">
+                    Website untuk layanan Umkm laundry dengan fitur pemesanan
+                    online.
+                  </p>
+                  <a
+                    href="https://azkia-laundry.wuaze.com/?i=2"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Kunjungi Web</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="website">
+              <div class="card">
+                <img
+                  src="img/zizah wed Cropped (1).jpg"
+                  class="card-img-top"
+                  alt="Website Wedding Zizah"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Proyek Pribadi Undangan Digital</h5>
+                  <p class="card-text">
+                    Dirancang unntuk keperluan Pribadi keluarga Pembuat
+                  </p>
+                  <a
+                    href="https://doniiskndr22.github.io/wedding_zizah/"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Kunjungi Web</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col project-item" data-category="website">
+              <div class="card">
+                <img
+                  src="img/iyesweb Cropped (1).jpg"
+                  class="card-img-top"
+                  alt="Website IYES Indonesia"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Website Organisasi IYES</h5>
+                  <p class="card-text">
+                    Membangun website organisasi IYES dari awal sebagai platform
+                    informasi.
+                  </p>
+                  <a
+                    href="https://iyes-indonesia.github.io/index.html"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Kunjungi Web</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col project-item" data-category="website">
+              <div class="card">
+                <img
+                  src="img/cooming soon.jpg"
+                  class="card-img-top"
+                  alt="Website Proyek 5"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Cooming Soon</h5>
+                  <p class="card-text">Website Sistem Informasi Kos Fajar</p>
+                  <a
+                    href="#"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Kunjungi Web</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col project-item" data-category="desain">
+              <div class="card">
+                <img
+                  src="img/tiftar1 Cropped.jpg"
+                  class="card-img-top"
+                  alt="Poster TIFTAR"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Poster TIFTAR 2025</h5>
+                  <p class="card-text">
+                    Desain poster untuk acara buka bersama keluarga besar TI.
+                  </p>
+                  <a
+                    href="https://drive.google.com/file/d/1GI5Vs6sW6CCbGc1MxSKvDGi6zfmXSgbl/view?usp=drive_link"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Lihat Desain</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="desain">
+              <div class="card">
+                <img
+                  src="img/GANCI FIX2 Cropped.png"
+                  class="card-img-top"
+                  alt="Desain Merchandise"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Desain Merchandise</h5>
+                  <p class="card-text">
+                    Desain gantungan kunci untuk kegiatan Gerakan Mengajar Desa.
+                  </p>
+                  <a
+                    href="https://drive.google.com/file/d/1DBYrOnN9vvLqrn9HhIDYlLltB_i2bsw8/view?usp=drive_link"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Lihat Desain</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="desain">
+              <div class="card">
+                <img
+                  src="img/asli live report Cropped.png"
+                  class="card-img-top"
+                  alt="Template Live Report"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Template Live Report</h5>
+                  <p class="card-text">
+                    Template Live Report untuk kegiatan GMD Riau.
+                  </p>
+                  <a
+                    href="https://drive.google.com/file/d/1yMnP6fTLKElItR-j2QTxmkuhcAkenzeE/view?usp=drive_link"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Lihat Desain</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="desain">
+              <div class="card">
+                <img
+                  src="img/open donasi Cropped.jpg"
+                  class="card-img-top"
+                  alt="Poster Open Donasi"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Poster Open Donasi</h5>
+                  <p class="card-text">
+                    Poster ajakan donasi di bulan Ramadan untuk panti asuhan.
+                  </p>
+                  <a
+                    href="https://drive.google.com/file/d/1eSgpAIVS219YhJ0V_XX8NeCfxHpRQCUD/view?usp=drive_link"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Lihat Desain</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="desain">
+              <div class="card">
+                <img
+                  src="img/pmfirst Cropped.jpg"
+                  class="card-img-top"
+                  alt="Poster Oprec PM"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Oprec Pengurus Muda</h5>
+                  <p class="card-text">
+                    Poster pendaftaran Pengurus Muda Himpunan Mahasiswa TI.
+                  </p>
+                  <a
+                    href="https://www.instagram.com/p/DFVO65tzVAB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Lihat Desain</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="desain">
+              <div class="card">
+                <img
+                  src="img/scaleup.png"
+                  class="card-img-top"
+                  alt="Poster Oprec PM"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Program Iyes (Scale Up)</h5>
+                  <p class="card-text">Feef Program IYES (Scale U)</p>
+                  <a
+                    href="https://www.instagram.com/p/DLopQU0SpPg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Lihat Desain</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="desain">
+              <div class="card">
+                <img
+                  src="img/onboarding.png"
+                  class="card-img-top"
+                  alt="Poster Oprec PM"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">On boarding volunteer IYES</h5>
+                  <p class="card-text">
+                    Feed on boarding volunteer kepengurusan IYES
+                  </p>
+                  <a
+                    href="https://www.instagram.com/p/DKerBBjyhcL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Lihat Desain</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="desain">
+              <div class="card">
+                <img
+                  src="img/header.heic"
+                  class="card-img-top"
+                  alt="Poster Oprec PM"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Struktur Anggoya Iyes</h5>
+                  <p class="card-text">
+                    Feed struktur keanggotaan IYES 2025-2027
+                  </p>
+                  <a
+                    href="https://www.instagram.com/p/DLctNYnyONn/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Lihat Desain</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="desain">
+              <div class="card">
+                <img
+                  src="img/tahun baru islam (iyes) Cropped.jpg"
+                  class="card-img-top"
+                  alt="Poster Oprec PM"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Tahun Baru Islam</h5>
+                  <p class="card-text">Flyer tahun baru islam IYES</p>
+                  <a
+                    href="https://drive.google.com/file/d/1CXFnlmnyJhh1-j2ustF6mAwI-a0vY2gi/view?usp=drive_link"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Lihat Desain</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="desain">
+              <div class="card">
+                <img
+                  src="img/IDUL ADHA 1466 H Cropped (1).jpg"
+                  class="card-img-top"
+                  alt="Poster Oprec PM"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Idul Adha</h5>
+                  <p class="card-text">Flyer idul adha IYES</p>
+                  <a
+                    href="https://drive.google.com/file/d/1dqHlqxkpRv-ztEd-MEMxu-d21I6XA67k/view?usp=drive_link"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Lihat Desain</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col project-item" data-category="video">
+              <div class="card">
+                <img
+                  src="img/evaluasi Cropped.jpg"
+                  class="card-img-top"
+                  alt="Video Recap GMD"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Video Recap Evaluasi</h5>
+                  <p class="card-text">
+                    Video rekap kegiatan evaluasi dan pembelajaran selama GMD.
+                  </p>
+                  <a
+                    href="https://www.instagram.com/reel/DFH9-ABSgxt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Tonton Video</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="video">
+              <div class="card">
+                <img
+                  src="img/gemuruh riuh Cropped.jpg"
+                  class="card-img-top"
+                  alt="Video Recap Day 5"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Recap Day 5 GMD</h5>
+                  <p class="card-text">
+                    Video latihan pentas seni untuk menumbuhkan kepercayaan
+                    diri.
+                  </p>
+                  <a
+                    href="https://www.instagram.com/reel/DFK75zwyP_z/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Tonton Video</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="video">
+              <div class="card">
+                <img
+                  src="img/keluh kesah Cropped.jpg"
+                  class="card-img-top"
+                  alt="Video GMD Last Chapter"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">GMD Last Chapter</h5>
+                  <p class="card-text">
+                    Video kenangan terakhir setelah 8 hari mengabdi di GMD Riau.
+                  </p>
+                  <a
+                    href="https://www.instagram.com/reel/DE-FyCNy6YY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Tonton Video</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="jurnal">
+              <div class="card">
+                <img
+                  src="img/jurnalspk.png"
+                  class="card-img-top"
+                  alt="Cover Jurnal Ilmiah"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Machine Learning</h5>
+                  <p class="card-text">
+                    Klasifikasi Hasil Pertandingan LaLiga Musim 2019–2025
+                    Menggunakan Algoritma Random Forest
+                  </p>
+                  <a
+                    href="https://drive.google.com/file/d/15v6T4EkmcmdIsx18rFicWoXiFGI-kp_p/view?usp=drive_link"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Baca Jurnal</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="jurnal">
+              <div class="card">
+                <img
+                  src="img/JURNALSC.png"
+                  class="card-img-top"
+                  alt="Cover Jurnal Ilmiah"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Literatur Riview</h5>
+                  <p class="card-text">
+                    REVIEW SISTEM OTOMASISASI PENERANGAN JALAN BERBASIS SENSOR
+                    DI PEKANBARU
+                  </p>
+                  <a
+                    href="https://docs.google.com/document/d/19vfc3Bxs9IM7EEMClYF2FatoSjxxnQmC/edit?usp=drive_link&ouid=115364317201118784752&rtpof=true&sd=true"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Baca Jurnal</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col project-item" data-category="jurnal">
+              <div class="card">
+                <img
+                  src="img/jurnalsd.png"
+                  class="card-img-top"
+                  alt="Cover Jurnal Ilmiah"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Machine Learning</h5>
+                  <p class="card-text">
+                    Penerapan Random Forest untuk Identifikasi Tipe Ke…tudi
+                    Kasus Klasifikasi Introvert dan Extrovert
+                  </p>
+                  <a
+                    href="https://drive.google.com/file/d/1kCCpXdhSrn96rMIEfe9gc7hiS0YQpChF/view?usp=drive_link"
+                    class="btn btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Baca Jurnal</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contact Me</h2>
+          </div>
+          <div class="row mt-1">
+            <div class="col-lg-4 animate-on-scroll">
+              <div class="info">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <h4>Lokasi:</h4>
+                  <p>Pekanbaru, Riau, Indonesia</p>
+                </div>
+
+                <div class="email">
+                  <i class="fas fa-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>doniiskanda2019@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-8 mt-5 mt-lg-0 animate-on-scroll"
+              data-delay="100"
+            >
+              <form action="#" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="form-group mt-3">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container">
+        <h3>Doni Iskandar</h3>
+        <p>"Striving for excellence, one line of code at a time."</p>
+        <div class="social-links">
+          <a href="https://wa.me/6283827031986" target="_blank"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a href="https://www.instagram.com/doniiskndrr/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/doni-iskandar-2a726625b/"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <div class="copyright">
+          &copy; Copyright <strong><span>Doni Iskandar</span></strong
+          >. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pjs-for-websites@1.0.0/dist/pjs-for-websites.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  </body>
+</html>
